@@ -4,7 +4,6 @@ import Footer from './components/Footer'
 import Home from './components/Home'
 import Menu from './components/Menu'
 import Navbar from './components/Navbar'
-import Slide from './components/Fotos'
 import Fotos from './components/Fotos'
 import Productos from './components/Productos'
 
