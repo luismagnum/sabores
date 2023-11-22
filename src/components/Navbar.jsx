@@ -68,7 +68,6 @@ const Navbar = () => {
                     Fotos
                 </Link>
 
-                <Button className="cursor-pointer" title="Encargar"/>
             </nav>
             <div className='md:hidden flex items-center'>
                 {menu ? (

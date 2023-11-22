@@ -1,7 +1,6 @@
 {
   "name": "sabores",
   "private": true,
-  "homepage": "http://luismagnum.github.io/sabores",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
