@@ -49,7 +49,7 @@ const Navbar = () => {
                  smooth={true} 
                  duration={500} 
                  className='hover:text-teal-500 transition-all cursor-pointer'>
-                 About
+                 Tequeños
                 </Link>
                 <Link 
                  to='menu' 
@@ -57,7 +57,7 @@ const Navbar = () => {
                  smooth={true} 
                  duration={500} 
                  className='hover:text-teal-500 transition-all cursor-pointer'>
-                 Menu
+                 Arepas
                 </Link>
                 <Link 
                  to='fotos' 
@@ -65,7 +65,7 @@ const Navbar = () => {
                  smooth={true} 
                  duration={500} 
                  className='hover:text-teal-500 transition-all cursor-pointer'>
-                    Fotos
+                 Fotos
                 </Link>
 
             </nav>
@@ -100,7 +100,7 @@ const Navbar = () => {
                  smooth={true} 
                  duration={500} 
                  className='hover:text-teal-500 transition-all cursor-pointer'>
-                 About
+                 Tequeños
                 </Link>
                 <Link 
                  to='menu' 
@@ -108,7 +108,7 @@ const Navbar = () => {
                  smooth={true} 
                  duration={500} 
                  className='hover:text-teal-500 transition-all cursor-pointer'>
-                 Menu
+                 Arepas
                 </Link>
                 <Link 
                  to='fotos' 
@@ -116,7 +116,7 @@ const Navbar = () => {
                  smooth={true} 
                  duration={500} 
                  className='hover:text-teal-500 transition-all cursor-pointer'>
-                    Fotos
+                  Fotos
                 </Link>
         </div>
       </div>
