@@ -47,9 +47,9 @@ const Footer = () => {
             </button>
           </div>
       <div>
-       <p className='text-center py-4'>
-        @Sabores de Venezuela 2023 developer by
-        <span className='text-teal-500'>  Luis Enrique Diaz</span>
+       <p className='text-center text-sm py-4'>
+        @Sabores de Venezuela 2023<br></br>
+        <span className='text-teal-500'>Developer Luis Enrique Diaz </span>
        </p>
       </div>
       <br></br>
