@@ -3,7 +3,7 @@ import Button from '../layouts/Button';
 
 const Home = () => {
   return (
-    <div className='min-h-screen flex flex-row justify-between items-center lg:px-32 px-5 bg-[url(https://media.istockphoto.com/id/1470757433/es/foto/gujiya-un-holi-indio-refrigerios-especiales.jpg?s=612x612&w=0&k=20&c=S39tgcmcPd5mINaNC0Z2yOI1BFB6TdyJc_ZnLoDg2C0=)] bg-cover bg-no-repeat' id='Seccion1'>
+    <div className='min-h-screen flex flex-row justify-between items-center lg:px-32 px-5 bg-[url(https://media.istockphoto.com/id/1280159987/es/foto/empanadas-or-empanadillas.jpg?s=612x612&w=0&k=20&c=ImyJmRnWGQWZBXYhaz8S0ebnDVns8x3cA9KQsjLKVVo=)] bg-cover bg-no-repeat' id='Seccion1'>
       <div className='w-full lg:w-2/3 space-y-5'>
         <h1 className='text-black-500 font-bold text-4xl'>Empanadas y tequeños venezolanos</h1>
         <p className='text-white text-xl'>
