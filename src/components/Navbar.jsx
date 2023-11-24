@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import {Link} from "react-scroll";
-import { BiRestaurant } from "react-icons/bi";
 import Button from '../layouts/Button';
 import { IoClose } from "react-icons/io5";
 import { AiOutlineMenuUnfold } from "react-icons/ai";
@@ -22,7 +21,7 @@ const Navbar = () => {
         <div className='flex flex-row justify-between p-5 md:px-32 px-5 bg-white shadow-[0_3px_10px_rgba(0,0,0,0.2)]'>
             <div className='flex flex-row items-center cursor-pointer'>
                 <span>
-                    <img src={logo} alt='' width={30}/>
+                    <img src={logo} alt='' width={35}/>
                 </span>
                 <h1 className='text-xl font-semibold'>Sabores de Venezuela</h1>
             </div>
@@ -77,7 +76,7 @@ const Navbar = () => {
                 )}
             </div>
         </div>
-        <div className={`${menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-black text-white left-0 top-20 font-semibold text-2xl text-center pt-9 pb-4 gap-8 w-full h-fit transition-transform duration-300`}>
+        <div className={`${menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-black text-white left-0 top-20 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}>
         <Link
                  to='home'
                  spy={true} 

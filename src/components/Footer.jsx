@@ -2,6 +2,7 @@ import React from 'react';
 import { FaWhatsappSquare } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
+import logo from '../image/logo.svg';
 import { Link } from 'react-scroll';
 
 const Footer = () => {
@@ -43,7 +44,7 @@ const Footer = () => {
           </div>
           <div className='flex items-center justify-center'>
             <button className='grid grid-cols-1'>
-              <a className='text-center text-teal-500 font-semibold text-2xl hover:text-teal-800' href='#Seccion1'>HOME</a>
+              <a className='flex text-center text-teal-500 font-semibold text-2xl hover:text-teal-800' href='#Seccion1'>HOME</a>
             </button>
           </div>
       <div>
