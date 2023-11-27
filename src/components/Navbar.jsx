@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import {Link} from "react-scroll";
 import Button from '../layouts/Button';
 import { IoClose } from "react-icons/io5";
-import { AiOutlineMenuUnfold } from "react-icons/ai";
+import { TiThMenu } from "react-icons/ti";
 import logo from '../image/logo.svg';
 
 const Navbar = () => {
@@ -70,9 +70,9 @@ const Navbar = () => {
             </nav>
             <div className='md:hidden flex items-center'>
                 {menu ? (
-                    <IoClose size={25} onClick={handleChange} />
+                    <IoClose size={25} onClick={handleChange} className='cursor-pointer'/>
                 ):(
-                    <AiOutlineMenuUnfold size={25} onClick={handleChange}/>
+                    <TiThMenu size={25} onClick={handleChange} className='cursor-pointer'/>
                 )}
             </div>
         </div>
@@ -82,7 +82,8 @@ const Navbar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-teal-500 transition-all cursor-pointer'>
+                 className='hover:text-teal-500 transition-all cursor-pointer'
+                 onClick={closeMenu}>
                  Home
                  </Link>
                  <Link 
@@ -90,7 +91,8 @@ const Navbar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-teal-500 transition-all cursor-pointer'>
+                 className='hover:text-teal-500 transition-all cursor-pointer'
+                 onClick={closeMenu}>
                  Productos
                  </Link>
                 <Link 
@@ -98,7 +100,8 @@ const Navbar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-teal-500 transition-all cursor-pointer'>
+                 className='hover:text-teal-500 transition-all cursor-pointer'
+                 onClick={closeMenu}>
                  Tequeños
                 </Link>
                 <Link 
@@ -106,7 +109,8 @@ const Navbar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-teal-500 transition-all cursor-pointer'>
+                 className='hover:text-teal-500 transition-all cursor-pointer'
+                 onClick={closeMenu}>
                  Arepas
                 </Link>
                 <Link 
@@ -114,7 +118,8 @@ const Navbar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-teal-500 transition-all cursor-pointer'>
+                 className='hover:text-teal-500 transition-all cursor-pointer'
+                 onClick={closeMenu}>
                   Fotos
                 </Link>
         </div>
