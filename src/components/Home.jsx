@@ -7,7 +7,7 @@ const Home = () => {
       <div className='w-full lg:w-2/3 space-y-5'>
         <h1 className='text-red-700 font-bold text-4xl'>Empanadas y tequeños venezolanos</h1>
         <p className='text-white text-xl'>
-            Las Empanadas Venezolanas es un envoltorio de masa de maiz con un relleno
+            Las Empanadas Venezolanas son un envoltorio de masa de maiz con un relleno
             que puede ser de carne, pollo o queso cuya coccion es frita.
         </p>
         <div className='lg:pl-44'>
