@@ -6,6 +6,7 @@ import Menu from './components/Menu'
 import Navbar from './components/Navbar'
 import Fotos from './components/Fotos'
 import Productos from './components/Productos'
+import ComboArepa from './components/Combo'
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
 
           <div id='menu'>
             <Menu />
+          </div>
+          <div id='combo'>
+            <ComboArepa />
           </div>
 
           <div id='fotos'>
