@@ -3,7 +3,7 @@ import Button from '../layouts/Button';
 
 const Home = () => {
   return (
-    <div className='min-h-screen flex flex-row justify-between items-center lg:px-32 px-5 bg-[url(https://media.istockphoto.com/id/1402776309/es/foto/empanadas-fritas.jpg?s=612x612&w=0&k=20&c=VRk2FXIefnM6MZcnyxuGmLBDF7zZAhaNgh14qhbFEE0=)] bg-cover bg-no-repeat' id='Seccion1'>
+    <div className='min-h-screen flex flex-row justify-between items-center lg:px-32 px-5 bg-[url(https://media.istockphoto.com/id/1402776309/es/foto/empanadas-fritas.jpg?s=612x612&w=0&k=20&c=VRk2FXIefnM6MZcnyxuGmLBDF7zZAhaNgh14qhbFEE0=)] bg-cover bg-no-repeat'>
       <div className='w-full lg:w-2/3 space-y-5'>
         <h1 className='text-red-700 font-bold text-4xl'>Empanadas y tequeños venezolanos</h1>
         <p className='text-white text-xl'>

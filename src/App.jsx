@@ -7,11 +7,13 @@ import Navbar from './components/Navbar'
 import Fotos from './components/Fotos'
 import Productos from './components/Productos'
 import ComboArepa from './components/Combo'
+import PopModal from './components/popup/PopModal'
 
 function App() {
   return (
     <div>
         <Navbar />
+        <PopModal />
 
         <main>
           <div id='home'>
