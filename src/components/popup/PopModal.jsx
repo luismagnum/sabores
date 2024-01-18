@@ -23,8 +23,9 @@ const PopModal = () => {
 
       <Modal isOpen={isModalOpen} onClose={handleCloseModal}>
         <div className="p-4">
-          <h1 className="text-center text-xl text-black font-bold mb-4">Combo Venezolano</h1>
-          <p className='text-xl text-black font-bold'>4 empanadas, 4 tequeños y 1 salsa de ajo</p>
+          <h1 className="text-center text-xl text-black font-bold mb-4">Mini-Combo</h1>
+          <p className='text-xl text-black'>4 empanadas, 4 tequeños</p>
+          <p className='text-xl text-black'> y 1 salsa de ajo</p>
           <p className='text-center text-xl text-black font-bold'>$6500</p>
           <button
             className="mt-4 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
