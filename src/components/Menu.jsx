@@ -9,7 +9,7 @@ const Menu = () => {
     <div className='min-h-screen flex flex-col justify-center items-center lg:px-32 px-5'>
       <h1 className='text-4xl font-semibold text-center lg:pt-8 pt-24 pb-10'>Combos<span className='text-sm'></span></h1>
       <div className='flex flex-wrap gap-8 justify-center'>
-        <DishesCard img={im8} title="6 empanadas 6 tequeños 1 salsa ajo" price="$8500" />
+        <DishesCard img={im8} title="6 empanadas 6 tequeños 1 salsa de ajo" price="$8500" />
         <DishesCard img={im7} title="4 empanadas 4 tequeños 1 salsa de ajo" price="$7000" />
         <DishesCard img={im9} title="4 pastelitos 4 tequeños 1 salsa de ajo" price="$8500" />
       </div>
