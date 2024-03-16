@@ -56,7 +56,7 @@ const Navbar = () => {
                  smooth={true} 
                  duration={500} 
                  className='hover:text-teal-500 transition-all cursor-pointer'>
-                 Arepas
+                 Combos
                 </Link>
                 <Link 
                  to='fotos' 
@@ -111,7 +111,7 @@ const Navbar = () => {
                  duration={500} 
                  className='hover:text-teal-500 transition-all cursor-pointer'
                  onClick={closeMenu}>
-                 Arepas
+                 Combos
                 </Link>
                 <Link 
                  to='fotos' 

@@ -1,17 +1,19 @@
 import React from 'react'
-import im10 from '../image/im10.png'
+import img14 from '../image/img14.png'
 import Button from '../layouts/Button';
 
 const Combo = () => {
   return (
     <div className='min-h-screen flex flex-col lg:flex-row justify-center items-center lg:px-32 px-5'>
-      <img src={im10} alt='img2'/>
+      <img src={img14} alt='img2'/>
 
       <div className='space-y-6 lg:pt-14'>
-        <h1 className='font-semibold text-4xl text-start'>Combo Arepero</h1>
-        <p>  El Combo arepero consta de 3 arepas,
-            3 empanadas,6 tequeños y 1 salsa de ajo.
-            El precio del combo es <span className='text-black font-semibold'>$8000.</span>
+        <h1 className='font-semibold text-4xl text-center'>Pastelitos</h1>
+        <p>Los pastelitos venezolanos son deliciosos bocados fritos o al horno,
+           hechos con masa de harina de trigo y rellenos con una variedad de
+           ingredientes. Los rellenos más comunes incluyen carne molida sazonada,
+           pollo desmenuzado, queso blanco rallado. 
+            <span className='text-black font-semibold'>Deliciosos!</span>
         </p>
         <div className='flex justify-center lg:justify-start'>
         <button className='border-2 border-black bg-black p-2 rounded-full text-white'>

@@ -8,13 +8,13 @@ const Fotos = () => {
             url:'https://media.istockphoto.com/id/1402776309/es/foto/empanadas-fritas.webp?b=1&s=170667a&w=0&k=20&c=ve1QQtAfMsIqIjv4ynsd6DpyW8YGnTY24ouUkAHwtZ4=',title: 'tequeños',
         },
         {
-            url:'https://media.istockphoto.com/id/1411707124/es/foto/empanadas-de-carne-empanadas-fritas-de-carne-de-res-latinoamericanas-pastel-de-carne-relleno.webp?b=1&s=170667a&w=0&k=20&c=MQ3F-Ea1cN9CKOvS213MgXHeamquWVj_zxqkkX1d_SI=',title:'empanadas',
+            url:'https://media.istockphoto.com/id/1461055469/es/foto/teque%C3%B1os-o-dedos-de-queso.jpg?s=612x612&w=0&k=20&c=bYU-KNXETU6zkFQvB92F5eJZMXZdtJh08MoXcZgDjVU=',title:'empanadas',
         },
         {
             url:'https://media.istockphoto.com/id/542696446/es/foto/tres-pasteles-de-leche-con-coco-postre-tradicional-de-am%C3%A9rica-latina.webp?b=1&s=170667a&w=0&k=20&c=gRsvHECIypGfecSfo2-0QqKucndOmcJ7O8NBhb8CFvQ=',title:'torta',
         },
         {
-            url:'https://media.istockphoto.com/id/627042504/es/foto/comida-t%C3%ADpica-venezolana-arepa.webp?b=1&s=170667a&w=0&k=20&c=JjlVkhJzOLUgeRqQZ2XX4L0T7Gcm-XuDverDIBFsElI=',title:'arepas',
+            url:'https://media.istockphoto.com/id/1360850364/es/foto/comida-latinoamericana-empanada-venezolana-peluda-carne-desmenuzada-con-queso-amarillo.jpg?s=612x612&w=0&k=20&c=XZUdQsiue7mrZx6oCNbM46jrE8tlMyxFKoVmBDkhHpY=',title:'arepas',
         },
     ];
 
