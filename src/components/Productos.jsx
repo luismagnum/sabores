@@ -14,7 +14,7 @@ const Productos = () => {
       <h1 className='text-4xl font-bold text-center pt-24 pb-10'>Nuestras Comidas</h1>
       <div className='flex flex-wrap gap-8 justify-center'>
         <DishesCard img={img1} title="empanadas 12u" price="$12000" />
-        <DishesCard img={img2} title="tequeños 12u" price="$6500" />
+        <DishesCard img={img2} title="tequeños 12u" price="$7000" />
         <DishesCard img={img3} title="minitequeños 50u" price="$9500" />
         <DishesCard img={img13} title="pastelitos 12u" price="$8000"/>
         <DishesCard img={img5} title="salsa de ajo" price="$1000" />
