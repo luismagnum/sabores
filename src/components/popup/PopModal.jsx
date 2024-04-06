@@ -26,7 +26,7 @@ const PopModal = () => {
           <h1 className="text-center text-xl text-black font-bold mb-4">Mini-Combo</h1>
           <p className='text-xl text-black'>4 empanadas, 4 tequeños</p>
           <p className='text-xl text-black'> y 1 salsa de ajo</p>
-          <p className='text-center text-xl text-black font-bold'>$7000</p>
+          <p className='text-center text-xl text-black font-bold'>$7500</p>
           <button
             className="mt-4 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
             onClick={handleCloseModal}
