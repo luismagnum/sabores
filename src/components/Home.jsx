@@ -3,7 +3,7 @@ import Button from '../layouts/Button';
 
 const Home = () => {
   return (
-    <div className='min-h-screen flex flex-row justify-between items-center lg:px-32 px-5 bg-[url(https://media.istockphoto.com/id/1280159976/es/foto/empanadas-or-empanadillas.jpg?s=612x612&w=0&k=20&c=LoCTkFP1S1U1hLMfeBU-LWuWE3mMl5uUo4ZjEg5gWDU=)] bg-cover bg-no-repeat'>
+    <div className='min-h-screen flex flex-row justify-between items-center lg:px-32 px-5 bg-[url(https://media.istockphoto.com/id/1461055469/es/foto/teque%C3%B1os-o-dedos-de-queso.jpg?s=612x612&w=0&k=20&c=bYU-KNXETU6zkFQvB92F5eJZMXZdtJh08MoXcZgDjVU=)] bg-cover bg-no-repeat'>
       <div className='w-full lg:w-2/3 space-y-5'>
         <h1 className='text-red-800 font-bold text-4xl'>Empanadas tequeños y pastelitos venezolanos</h1>
         <p className='text-white text-xl'>
