@@ -17,7 +17,7 @@ const Combo = () => {
         </p>
         <div className='flex justify-center lg:justify-start'>
         <button className='border-2 border-black bg-black p-2 rounded-full text-white'>
-             <a href="https://wa.me/542984417477?text=Hola quiero hacer un pedido" target="_blank">Encargar ahora</a>
+             <a href="https://wa.me/542984792639?text=Hola quiero hacer un pedido" target="_blank">Encargar ahora</a>
            </button>
         </div>
       </div>
