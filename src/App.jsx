@@ -8,6 +8,7 @@ import Fotos from './components/Fotos'
 import Productos from './components/Productos'
 import ComboArepa from './components/Combo'
 import PopModal from './components/popup/PopModal'
+import Papa from './components/Papa'
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
 
         <main>
           <div id='home'>
-            <Home />
+            <Papa />
           </div>
 
           <div id='productos'>
