@@ -16,3 +16,12 @@ html{
 h1{
     font-family: 'Poppins';
 }
+
+/* src/index.css o donde tengas tus estilos globales */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+  }

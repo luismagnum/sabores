@@ -9,6 +9,7 @@ import Productos from './components/Productos'
 import ComboArepa from './components/Combo'
 import PopModal from './components/popup/PopModal'
 import Papa from './components/Papa'
+import TextSlider from './components/slide/TextSlider'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <main>
           <div id='home'>
             <Papa />
+            <TextSlider />
           </div>
 
           <div id='productos'>
