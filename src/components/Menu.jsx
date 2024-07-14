@@ -11,7 +11,7 @@ const Menu = () => {
       <div className='flex flex-wrap gap-8 justify-center'>
         <DishesCard img={im8} title="6 empanadas 6 tequeños 1 salsa de ajo" price="$10000" />
         <DishesCard img={im7} title="4 empanadas 4 tequeños 1 salsa de ajo" price="$8500" />
-        <DishesCard img={im9} title="4 pastelitos 4 tequeños 1 salsa de ajo" price="$8500" />
+        <DishesCard img={im9} title="6 pastelitos 6 tequeños 1 salsa de ajo" price="$10000" />
       </div>
     </div>
   )
