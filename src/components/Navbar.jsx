@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import {Link} from "react-scroll";
-import Button from '../layouts/Button';
 import { IoClose } from "react-icons/io5";
 import { TiThMenu } from "react-icons/ti";
 import logo from '../image/logo.svg';
