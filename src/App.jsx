@@ -10,38 +10,36 @@ import ComboArepa from './components/Combo'
 import PopModal from './components/popup/PopModal'
 import Papa from './components/Papa'
 import TextSlider from './components/slide/TextSlider'
+import Delivery from './components/Delivery'
+import Pagos from './components/Pagos'
 
 function App() {
   return (
     <div>
         <Navbar />
         <PopModal />
-
         <main>
           <div id='home'>
             <Papa />
             <TextSlider />
           </div>
-
           <div id='productos'>
             <Productos />
           </div>
-
           <div id='about'>
             <About />
           </div>
-
           <div id='menu'>
             <Menu />
           </div>
           <div id='combo'>
             <ComboArepa />
           </div>
-
+          <Delivery />
+          <Pagos />
           <div id='fotos'>
             <Fotos />
           </div>
-          
           <div>
             <Footer />
           </div>

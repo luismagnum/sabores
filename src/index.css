@@ -9,6 +9,10 @@ body{
     background-color: #f5f1ed;
 }
 
+h1{
+    font-family: 'Poppins', sans-serif; 
+}
+
 html{
     scroll-behavior: smooth;
 }
