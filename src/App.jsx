@@ -12,6 +12,7 @@ import Papa from './components/Papa'
 import TextSlider from './components/slide/TextSlider'
 import Delivery from './components/Delivery'
 import Pagos from './components/Pagos'
+import ShoppingCart from './components/ShoppingCart'
 
 function App() {
   return (
@@ -35,8 +36,9 @@ function App() {
           <div id='combo'>
             <ComboArepa />
           </div>
-          <Delivery />
+          <ShoppingCart />
           <Pagos />
+          <Delivery />
           <div id='fotos'>
             <Fotos />
           </div>

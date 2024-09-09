@@ -4,7 +4,7 @@ import deliv from '../image/deliv.png'
 const Delivery = () => {
   return (
     <div>
-        <div className='flex flex-col lg:flex-row justify-center items-center lg:px-32 px-5 mx-4 mb-8'>
+        <div className='flex flex-col lg:flex-row justify-center items-center lg:px-32 px-5 mx-4 mt-10 mb-8'>
       <img src={deliv} alt='img2'width={400}/>
       <div className='space-y-6 lg:pt-14 mx-4'>
         <h1 className='text-black font-bold text-3xl text-start'>Delivery Express</h1>
