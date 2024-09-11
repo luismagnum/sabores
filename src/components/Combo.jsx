@@ -1,13 +1,12 @@
 import React from 'react'
 import img14 from '../image/img14.png'
-import Button from '../layouts/Button';
 
 const Combo = () => {
   return (
-    <div className='min-h-screen flex flex-col lg:flex-row justify-center items-center lg:px-32 px-5 mb-10'>
-      <img src={img14} alt='img2'/>
+    <div className='min-h-screen flex flex-col lg:flex-row justify-center items-center lg:px-32 px-5 mb-6'>
+      <img src={img14} alt='img2' width={350}/>
 
-      <div className='space-y-6 lg:pt-14'>
+      <div className='space-y-6 lg:pt-2'>
         <h1 className='font-semibold text-4xl text-center'>Pastelitos</h1>
         <p>Los pastelitos venezolanos son deliciosos bocados fritos o al horno,
            hechos con masa de harina de trigo y rellenos con una variedad de

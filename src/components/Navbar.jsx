@@ -3,6 +3,7 @@ import {Link} from "react-scroll";
 import { IoClose } from "react-icons/io5";
 import { TiThMenu } from "react-icons/ti";
 import logo from '../image/logo.svg';
+import car from '../image/car.png';
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
@@ -58,12 +59,12 @@ const Navbar = () => {
                  Combos
                 </Link>
                 <Link 
-                 to='fotos' 
+                 to='shoppingcart' 
                  spy={true} 
                  smooth={true} 
                  duration={500} 
                  className='hover:text-teal-500 transition-all cursor-pointer'>
-                 Fotos
+                 <img src={car} alt='car' width={20}/>
                 </Link>
 
             </nav>
@@ -75,7 +76,7 @@ const Navbar = () => {
                 )}
             </div>
         </div>
-        <div className={`${menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-black text-white left-0 top-20 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}>
+        <div className={`${menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-white text-black left-0 top-16 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300 z-50`}>
         <Link
                  to='home'
                  spy={true} 
@@ -113,13 +114,13 @@ const Navbar = () => {
                  Combos
                 </Link>
                 <Link 
-                 to='fotos' 
+                 to='shoppingcart' 
                  spy={true} 
                  smooth={true} 
                  duration={500} 
                  className='hover:text-teal-500 transition-all cursor-pointer'
                  onClick={closeMenu}>
-                  Fotos
+                  <img src={car} alt='car' width={35} className='ml-40'/>
                 </Link>
         </div>
       </div>

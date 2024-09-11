@@ -36,10 +36,12 @@ function App() {
           <div id='combo'>
             <ComboArepa />
           </div>
+          <div id='shoppingcart'>
           <ShoppingCart />
+          </div>
           <Pagos />
           <Delivery />
-          <div id='fotos'>
+          <div>
             <Fotos />
           </div>
           <div>

@@ -21,7 +21,6 @@ const Footer = () => {
             <nav className='flex flex-col gap-2'>
             <a className="hover:text-teal-500 transition-all cursor-pointer" href='/'>Carne</a>
             <a className="hover:text-teal-500 transition-all cursor-pointer" href='/'>Carne c/queso</a>
-            <a className="hover:text-teal-500 transition-all cursor-pointer" href='/'>Pollo</a>
             <a className="hover:text-teal-500 transition-all cursor-pointer" href='/'>Pollo c/queso</a>
             </nav>
         </div>
@@ -30,7 +29,6 @@ const Footer = () => {
             <nav className='flex flex-col gap-2'>
             <a className="hover:text-teal-500 transition-all cursor-pointer" href='/'>Carne</a>
             <a className="hover:text-teal-500 transition-all cursor-pointer" href='/'>Carne c/queso</a>
-            <a className="hover:text-teal-500 transition-all cursor-pointer" href='/'>Pollo</a>
             <a className="hover:text-teal-500 transition-all cursor-pointer" href='/'>Pollo c/queso</a>
             </nav>
         </div>
@@ -39,7 +37,6 @@ const Footer = () => {
             <nav  className='flex flex-col gap-2'>
             <a className="hover:text-teal-500 transition-all cursor-pointer" href='/'>Queso</a>
             <a className="hover:text-teal-500 transition-all cursor-pointer" href='/'>Jamon c/queso</a>
-            <a className="hover:text-teal-500 transition-all cursor-pointer" href='/'>Torta 3 leches</a>
             <a className="hover:text-teal-500 transition-all cursor-pointer" href='/'>Combo tropical</a>
             </nav>
         </div>
