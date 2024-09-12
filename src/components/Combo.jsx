@@ -3,7 +3,7 @@ import img14 from '../image/img14.png'
 
 const Combo = () => {
   return (
-    <div className='min-h-screen flex flex-col lg:flex-row justify-center items-center lg:px-32 px-5 mb-6'>
+    <div className='min-h-screen flex flex-col lg:flex-row justify-center items-center lg:px-32 px-5 mb-6 gap-10'>
       <img src={img14} alt='img2' width={350}/>
 
       <div className='space-y-6 lg:pt-2'>

@@ -16,9 +16,9 @@ const Navbar = () => {
     setMenu(false);
   }
   return (
-    <div className='fixed w-full'>
+    <div className='fixed w-full z-50'>
       <div>
-        <div className='flex flex-row justify-between p-5 md:px-32 px-5 bg-white shadow-[0_3px_10px_rgba(0,0,0,0.2)]'>
+        <div className='flex flex-row justify-between p-5 md:px-32 px-5 bg-white shadow-[0_3px_10px_rgba(0,0,0,0.2)] z-50'>
             <div className='flex flex-row items-center cursor-pointer'>
                 <span>
                     <img src={logo} alt='' width={35}/>
@@ -118,9 +118,9 @@ const Navbar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-teal-500 transition-all cursor-pointer'
+                 className='hover:text-teal-500 transition-all cursor-pointer  flex justify-center items-center'
                  onClick={closeMenu}>
-                  <img src={car} alt='car' width={35} className='ml-40'/>
+                  <img src={car} alt='car' width={35} className='mx-auto'/>
                 </Link>
         </div>
       </div>
