@@ -13,6 +13,7 @@ import TextSlider from './components/slide/TextSlider'
 import Delivery from './components/Delivery'
 import Pagos from './components/Pagos'
 import ShoppingCart from './components/ShoppingCart'
+import Frecuente from './components/Frecuente'
 
 function App() {
   return (
@@ -41,9 +42,8 @@ function App() {
           </div>
           <Pagos />
           <Delivery />
-          <div>
-            <Fotos />
-          </div>
+          <Frecuente />
+          <Fotos />
           <div>
             <Footer />
           </div>

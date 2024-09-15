@@ -42,8 +42,8 @@ const Footer = () => {
         </div>
       </div>
           <div className='flex flex-row items-center justify-center gap-6'>
-          <button className='flex border-2 border-black bg-black p-2 rounded-full text-white gap-4'>
-            <a className="text-teal-500 text-4xl hover:text-teal-800 " href="https://wa.me/542984417477?text=Hola quiero hacer un pedido " target="_blank"><FaWhatsappSquare /></a>
+          <button className='flex border-2 border-black bg-black p-2 rounded-full gap-4'>
+            <a className="text-teal-500 text-4xl hover:text-teal-800" href="https://wa.me/542984417477?text=Hola quiero hacer un pedido " target="_blank"><FaWhatsappSquare /></a>
             <a className="text-teal-500 text-4xl hover:text-teal-800" href="https://www.facebook.com/profile.php?id=100063541335021" target="_blank"><FaFacebookSquare /></a>
             <a className="text-teal-500 text-4xl hover:text-teal-800" href="https://www.instagram.com/saboresdevenezuela2020?igshid=NjlwNzlyMDk2Mg==" target="_blank"><FaInstagramSquare /></a>
           </button>

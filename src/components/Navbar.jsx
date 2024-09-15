@@ -63,7 +63,7 @@ const Navbar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-teal-500 transition-all cursor-pointer'>
+                 className='hover:bg-teal-500 p-1 transition-all rounded-full cursor-pointer'>
                  <img src={car} alt='car' width={20}/>
                 </Link>
 
