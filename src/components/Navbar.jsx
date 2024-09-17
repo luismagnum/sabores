@@ -21,9 +21,9 @@ const Navbar = () => {
         <div className='flex flex-row justify-between p-5 md:px-32 px-5 bg-white shadow-[0_3px_10px_rgba(0,0,0,0.2)] z-50'>
             <div className='flex flex-row items-center cursor-pointer'>
                 <span>
-                    <img src={logo} alt='' width={35}/>
+                    <img src={logo} alt='logo' width={35}/>
                 </span>
-                <h1 className='text-xl font-semibold'>Sabores de Venezuela</h1>
+                <h1 className='text-xl font-semibold'><span className="text-yellow-400">Sabores</span><span className='text-blue-500'> de </span><span className='text-red-600'> Venezuela</span></h1>
             </div>
             <nav className='hidden md:flex flex-row items-center text-lg font-medium gap-8'>
                 <Link
