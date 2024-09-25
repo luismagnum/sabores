@@ -9,7 +9,7 @@ body{
     background-color: #f5f1ed;
 }
 
-h1{
+h1,p{
     font-family: 'Poppins', sans-serif; 
 }
 
@@ -17,9 +17,7 @@ html{
     scroll-behavior: smooth;
 }
 
-h1{
-    font-family: 'Poppins';
-}
+
 
 /* src/index.css o donde tengas tus estilos globales */
 .no-scrollbar::-webkit-scrollbar {
