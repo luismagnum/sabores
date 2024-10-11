@@ -14,7 +14,7 @@ const Productos = () => {
       <div className='flex flex-wrap gap-8 justify-center'>
         <DishesCard img={img1} title="empanadas 12u" price="$14000" />
         <DishesCard img={img2} title="tequeños 12u" price="$10000" />
-        <DishesCard img={img3} title="minitequeños 50u" price="$15000" />
+        <DishesCard img={img3} title="minitequeños 50u" price="$17000" />
         <DishesCard img={img13} title="pastelitos 12u" price="$10000"/>
         <DishesCard img={img5} title="salsa de ajo" price="$1000" />
         <DishesCard img={img6} title="torta 3 leches" price="$5000" />
