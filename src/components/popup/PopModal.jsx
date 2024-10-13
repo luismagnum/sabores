@@ -15,7 +15,7 @@ const PopModal = () => {
   };
 
   return (
-    <div className="flex items-center justify-center" id="Seccion1">
+    <div className="flex items-center justify-center">
       <button
         className="bg-teal-500 hover:bg-teal-800 text-white font-bold mt-20 mb-2 py-2 px-4 rounded-full flex items-center gap-2"
         onClick={handleOpenModal}

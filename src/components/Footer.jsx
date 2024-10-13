@@ -50,13 +50,13 @@ const Footer = () => {
           </div>
           <div className='flex items-center justify-center'>
             <button className='grid grid-cols-1'>
-              <a className='flex text-center text-teal-500 font-semibold text-2xl hover:text-teal-800' href='./'>HOME</a>
+              <a className='flex text-center text-teal-500 font-semibold text-2xl hover:text-teal-800' href='#Seccion1'>HOME</a>
             </button>
           </div>
       <div>
        <p className='text-center text-sm py-4'>
-        @Sabores de Venezuela 2023<br></br>
-        <span className='text-teal-500'>Developer Luis Enrique Diaz </span>
+        @Sabores de Venezuela 2024<br></br>
+        <span className='text-teal-500'>Dev Luis Enrique Diaz </span>
        </p>
       </div>
       <br></br>
