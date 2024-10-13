@@ -19,7 +19,6 @@ function App() {
   return (
     <div>
         <Navbar />
-        <PopModal />
         <main>
           <div id='home'>
             <Papa />

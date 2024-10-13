@@ -15,7 +15,7 @@ const Combo = () => {
             <span className='text-black font-semibold'>Deliciosos!</span>
         </p>
         <div className='flex justify-center lg:justify-start'>
-        <button className='border-2 border-black bg-black p-2 rounded-full text-white'>
+        <button className='border-2 border-black bg-black p-2 rounded-full text-white hover:text-teal-500'>
              <a href="https://wa.me/542984792639?text=Hola quiero hacer un pedido" target="_blank">Encargar ahora</a>
            </button>
         </div>

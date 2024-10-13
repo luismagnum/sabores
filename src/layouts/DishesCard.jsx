@@ -17,7 +17,7 @@ const DishesCard = (props) => {
         </div>
         <div className='flex flex-row items-center justify-center gap-4'>
             <h3 className='font-semibold text-lg'>{props.price}</h3>
-            <button className='border-2 border-black bg-black p-2 rounded-full text-white'>
+            <button className='border-2 border-black bg-black p-2 rounded-full text-white hover:text-teal-500'>
              <a href="https://wa.me/542984792639?text=Hola quiero hacer un pedido " target="_blank">Encargar ahora</a>
            </button>
         </div>

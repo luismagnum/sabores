@@ -7,8 +7,6 @@ export default {
   theme: {
     extend: {
       brightColors:"#f4511f",
-      backgroundColor:"#b7bca9",
-      lightText:"#959595",
     },
   },
   plugins: [],

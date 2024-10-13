@@ -90,7 +90,7 @@ const ShoppingCart = () => {
             <h2 className="text-xl font-bold">{product.name}</h2>
             <p className="text-gray-800 font-semibold">${product.price}</p>
             <button
-              className="mt-2 px-4 py-2 bg-[#000] text-white rounded-lg hover:text-teal-200 "
+              className="mt-2 px-4 py-2 bg-[#000] text-white rounded-lg hover:text-teal-500 "
               onClick={() => addToCart(product)}
             >
               Añadir al carrito
