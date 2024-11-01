@@ -17,10 +17,10 @@ const TextSlider = () => {
         ref={sliderRef}
         className="flex text-lg animate-marquee"
       >
-        <span className="text-white semi-bold mx-4">Nuevo Sabor</span>
-        <span className="text-white semi-bold mx-4">Cordon Blue</span>
-        <span className="text-white semi-bold mx-4">Nuevo Sabor</span>
-        <span className="text-white semi-bold mx-4">Cordon Blue</span>
+        <span className="text-white semi-bold mx-4">Empanadas</span>
+        <span className="text-white semi-bold mx-4">Tequeños</span>
+        <span className="text-white semi-bold mx-4">Combos</span>
+        <span className="text-white semi-bold mx-4">Mini combos</span>
         {/* Agrega más spans si es necesario */}
       </div>
     </div>

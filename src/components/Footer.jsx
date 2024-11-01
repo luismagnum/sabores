@@ -25,11 +25,11 @@ const Footer = () => {
             </nav>
         </div>
         <div>
-            <h1 className='font-medium text-xl pb-4 pt-5 md:pt-0'>Pastelitos</h1>
+            <h1 className='font-medium text-xl pb-4 pt-5 md:pt-0'>Combos</h1>
             <nav className='flex flex-col gap-2'>
-            <a className="hover:text-teal-500 transition-all cursor-pointer" href='/'>Carne</a>
-            <a className="hover:text-teal-500 transition-all cursor-pointer" href='/'>Carne c/queso</a>
-            <a className="hover:text-teal-500 transition-all cursor-pointer" href='/'>Pollo c/queso</a>
+            <a className="hover:text-teal-500 transition-all cursor-pointer" href='/'>Tropical</a>
+            <a className="hover:text-teal-500 transition-all cursor-pointer" href='/'>Mini Combo</a>
+            <a className="hover:text-teal-500 transition-all cursor-pointer" href='/'>Familiar</a>
             </nav>
         </div>
         <div>

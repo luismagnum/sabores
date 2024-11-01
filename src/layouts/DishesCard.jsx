@@ -1,6 +1,5 @@
 import React from 'react'
 import { RiStarSFill } from "react-icons/ri";
-import Button from '../layouts/Button';
 
 const DishesCard = (props) => {
   return (
