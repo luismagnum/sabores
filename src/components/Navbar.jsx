@@ -23,7 +23,7 @@ const Navbar = () => {
                 <span>
                     <img src={logo} alt='logo' width={35}/>
                 </span>
-                <h1 className='text-xl font-semibold'><span className="text-yellow-400">Sabores</span><span className='text-blue-500'> de </span><span className='text-red-600'> Venezuela</span></h1>
+                <h1 className='text-xl ml-2 font-semibold'><span className="text-yellow-400">Sabores</span><span className='text-blue-500'> de </span><span className='text-red-600'> Venezuela</span></h1>
             </div>
             <nav className='hidden md:flex flex-row items-center text-lg font-medium gap-8'>
                 <Link
