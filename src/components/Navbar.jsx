@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full z-50'>
       <div>
-        <div className='flex flex-row justify-between p-5 md:px-32 px-5 bg-white shadow-[0_3px_10px_rgba(0,0,0,0.2)] z-50'>
+        <div className='flex flex-row justify-between p-5 md:px-32 px-5 bg-[#fff] shadow-[0_3px_10px_rgba(0,0,0,0.2)] z-50'>
             <div className='flex flex-row items-center cursor-pointer'>
                 <span>
                     <img src={logo} alt='logo' width={35}/>
