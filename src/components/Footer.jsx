@@ -10,7 +10,7 @@ const Footer = () => {
     <div className='bg-black text-white rounded-t-3xl mt-8 md:mt-0'>
       <div className='flex flex-col md:flex-row justify-between p-8 md:px-32 px-5'>
         <div className='w-full md:w-1/4'>
-            <h1 className='text-[#fffc00] font-semibold text-xl pb-4'>Sabores de Venezuela</h1>
+            <h1 className='text-teal-500 font-semibold text-xl pb-4'>Sabores de Venezuela</h1>
             <p className='text-sm'>Los principales platos que se deben probar
             para dar fiesta al paladar y transportarse al caribe venezolano
             son: arepas, empanadas, pastelitos y los tequeños.
@@ -43,20 +43,20 @@ const Footer = () => {
       </div>
           <div className='flex flex-row items-center justify-center gap-6'>
           <button className='flex border-2 border-black bg-black p-2 rounded-full gap-4'>
-            <a className="text-[#fffc00] text-4xl hover:text-teal-800" href="https://wa.me/542984417477?text=Hola quiero hacer un pedido " target="_blank"><FaWhatsappSquare /></a>
-            <a className="text-[#fffc00] text-4xl hover:text-teal-800" href="https://www.facebook.com/profile.php?id=100063541335021" target="_blank"><FaFacebookSquare /></a>
-            <a className="text-[#fffc00] text-4xl hover:text-teal-800" href="https://www.instagram.com/saboresdevenezuela2020?igshid=NjlwNzlyMDk2Mg==" target="_blank"><FaInstagramSquare /></a>
+            <a className="text-teal-500 text-4xl hover:text-teal-800" href="https://wa.me/542984417477?text=Hola quiero hacer un pedido " target="_blank"><FaWhatsappSquare /></a>
+            <a className="text-teal-500 text-4xl hover:text-teal-800" href="https://www.facebook.com/profile.php?id=100063541335021" target="_blank"><FaFacebookSquare /></a>
+            <a className="text-teal-500 text-4xl hover:text-teal-800" href="https://www.instagram.com/saboresdevenezuela2020?igshid=NjlwNzlyMDk2Mg==" target="_blank"><FaInstagramSquare /></a>
           </button>
           </div>
           <div className='flex items-center justify-center'>
             <button className='grid grid-cols-1'>
-              <a className='flex text-center text-[#fffc00] font-semibold text-2xl hover:text-teal-800' href='#Seccion1'>HOME</a>
+              <a className='flex text-center text-teal-500 font-semibold text-2xl hover:text-teal-800' href='#Seccion1'>HOME</a>
             </button>
           </div>
       <div>
        <p className='text-center text-sm py-4'>
         @Sabores de Venezuela 2024<br></br>
-        <span className='text-[#fffc00]'>Dev Luis Enrique Diaz </span>
+        <span className='text-teal-500'>Dev Luis Enrique Diaz </span>
        </p>
       </div>
       <br></br>
