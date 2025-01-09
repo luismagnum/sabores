@@ -12,12 +12,12 @@ const Productos = () => {
     <div className='min-h-screen flex flex-col justify-center items-center lg:px-32 px-5 '>
       <h1 className='text-4xl font-bold text-center pt-2 md:pt-14 pb-10'>Nuestras Comidas</h1>
       <div className='flex flex-wrap gap-8 justify-center'>
-        <DishesCard img={img1} title="empanadas 12u" price="$15000" />
-        <DishesCard img={img2} title="tequeños 12u" price="$11000" />
-        <DishesCard img={img3} title="minitequeños 50u" price="$17000" />
-        <DishesCard img={img13} title="pastelitos 12u" price="$10000"/>
+        <DishesCard img={img1} title="empanadas 12u" price="$18000" />
+        <DishesCard img={img2} title="tequeños 12u" price="$12000" />
+        <DishesCard img={img3} title="minitequeños 50u" price="$19000" />
+        <DishesCard img={img13} title="pastelitos 12u" price="$12000"/>
         <DishesCard img={img5} title="salsa de ajo" price="$1200" />
-        <DishesCard img={img6} title="torta 3 leches" price="$7000" />
+        <DishesCard img={img6} title="torta 3 leches" price="$6500" />
       </div>
     </div>
   )

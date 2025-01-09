@@ -7,12 +7,12 @@ const ShoppingCart = () => {
   const [showError, setShowError] = useState(false); // Estado para mostrar mensaje de error
 
   const products = [
-    { id: 1, name: 'Empanadas', price: 15000 },
-    { id: 2, name: 'Empanadasx6', price: 7500 },
-    { id: 3, name: 'Tequeños', price: 11000 },
-    { id: 4, name: 'Combo Familiar', price: 20500 },
-    { id: 5, name: 'Combo Tropical', price: 14000 },
-    { id: 6, name: 'Mini Combo', price: 12000 },
+    { id: 1, name: 'Empanadas', price: 18000 },
+    { id: 2, name: 'Empanadasx6', price: 9000 },
+    { id: 3, name: 'Tequeños', price: 12000 },
+    { id: 4, name: 'Combo Familiar', price: 24000 },
+    { id: 5, name: 'Combo Tropical', price: 16000 },
+    { id: 6, name: 'Mini Combo', price: 14000 },
   ];
 
   // Función para añadir productos al carrito
